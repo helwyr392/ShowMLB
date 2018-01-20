@@ -1,0 +1,12 @@
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\ShowMLB\bin\Debug\ShowMLB.exe.config
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\ShowMLB\bin\Debug\ShowMLB.exe
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\ShowMLB\bin\Debug\ShowMLB.pdb
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\ShowMLB\bin\Debug\ShowMLB.xml
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\ShowMLB\obj\Debug\ShowMLB.vbprojResolveAssemblyReference.cache
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmMain.resources
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\ShowMLB\obj\Debug\ShowMLB.Resources.resources
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\ShowMLB\obj\Debug\ShowMLB.vbproj.GenerateResource.Cache
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\ShowMLB\obj\Debug\ShowMLB.vbproj.CoreCompileInputs.cache
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\ShowMLB\obj\Debug\ShowMLB.exe
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\ShowMLB\obj\Debug\ShowMLB.xml
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\ShowMLB\obj\Debug\ShowMLB.pdb
