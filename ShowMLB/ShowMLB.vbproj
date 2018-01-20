@@ -92,6 +92,12 @@
     <Compile Include="Forms\frmSplash.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Team Forms\frmStandings.Designer.vb">
+      <DependentUpon>frmStandings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Team Forms\frmStandings.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -115,6 +121,9 @@
     <EmbeddedResource Include="Forms\frmSplash.resx">
       <DependentUpon>frmSplash.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Team Forms\frmStandings.resx">
+      <DependentUpon>frmStandings.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -137,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
+    <Folder Include="Forms\Player Forms\" />
     <Folder Include="Modules\" />
   </ItemGroup>
   <ItemGroup>
