@@ -6,7 +6,10 @@ Public Class frmSplash
     Private Sub Timer1_Tick(ByVal sender As System.Object,
                 ByVal e As EventArgs) Handles Timer1.Tick
         Me.Opacity -= 0.06
-        If Me.Opacity = 0 Then Me.Dispose()
+        If Me.Opacity = 0 Then
+            Timer1.Enabled = False
+            Me.Dispose()
+        End If
     End Sub
 
     'Increases opacity to 1 incrementally
@@ -18,6 +21,7 @@ Public Class frmSplash
             Thread.Sleep(10)
         Next i
         Me.Opacity = 1
+        Thread.Sleep(1000)
         Timer2.Enabled = False
     End Sub
 

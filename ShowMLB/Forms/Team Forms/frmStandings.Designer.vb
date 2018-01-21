@@ -295,12 +295,17 @@ Partial Class frmStandings
         Me.Label29 = New System.Windows.Forms.Label()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
+        Me.btnSubmit = New System.Windows.Forms.Button()
+        Me.btnCancel = New System.Windows.Forms.Button()
+        Me.grpSeason = New System.Windows.Forms.GroupBox()
+        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
         Me.grpALEast.SuspendLayout()
         Me.grpALCentral.SuspendLayout()
         Me.grpALWest.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
+        Me.grpSeason.SuspendLayout()
         Me.SuspendLayout()
         '
         'grpALEast
@@ -349,7 +354,7 @@ Partial Class frmStandings
         Me.grpALEast.Controls.Add(Me.lblPct1)
         Me.grpALEast.Controls.Add(Me.lblLosses1)
         Me.grpALEast.Controls.Add(Me.lblWins1)
-        Me.grpALEast.Location = New System.Drawing.Point(24, 68)
+        Me.grpALEast.Location = New System.Drawing.Point(24, 143)
         Me.grpALEast.Name = "grpALEast"
         Me.grpALEast.Size = New System.Drawing.Size(403, 198)
         Me.grpALEast.TabIndex = 0
@@ -733,7 +738,7 @@ Partial Class frmStandings
         'lblAL
         '
         Me.lblAL.AutoSize = True
-        Me.lblAL.Location = New System.Drawing.Point(20, 26)
+        Me.lblAL.Location = New System.Drawing.Point(20, 101)
         Me.lblAL.Name = "lblAL"
         Me.lblAL.Size = New System.Drawing.Size(121, 19)
         Me.lblAL.TabIndex = 1
@@ -785,7 +790,7 @@ Partial Class frmStandings
         Me.grpALCentral.Controls.Add(Me.Label4)
         Me.grpALCentral.Controls.Add(Me.Label5)
         Me.grpALCentral.Controls.Add(Me.Label6)
-        Me.grpALCentral.Location = New System.Drawing.Point(24, 289)
+        Me.grpALCentral.Location = New System.Drawing.Point(24, 364)
         Me.grpALCentral.Name = "grpALCentral"
         Me.grpALCentral.Size = New System.Drawing.Size(403, 198)
         Me.grpALCentral.TabIndex = 2
@@ -1212,7 +1217,7 @@ Partial Class frmStandings
         Me.grpALWest.Controls.Add(Me.Label10)
         Me.grpALWest.Controls.Add(Me.Label11)
         Me.grpALWest.Controls.Add(Me.Label12)
-        Me.grpALWest.Location = New System.Drawing.Point(24, 510)
+        Me.grpALWest.Location = New System.Drawing.Point(24, 585)
         Me.grpALWest.Name = "grpALWest"
         Me.grpALWest.Size = New System.Drawing.Size(403, 198)
         Me.grpALWest.TabIndex = 46
@@ -1639,7 +1644,7 @@ Partial Class frmStandings
         Me.GroupBox1.Controls.Add(Me.Label16)
         Me.GroupBox1.Controls.Add(Me.Label17)
         Me.GroupBox1.Controls.Add(Me.Label18)
-        Me.GroupBox1.Location = New System.Drawing.Point(474, 510)
+        Me.GroupBox1.Location = New System.Drawing.Point(474, 585)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(403, 198)
         Me.GroupBox1.TabIndex = 103
@@ -2066,7 +2071,7 @@ Partial Class frmStandings
         Me.GroupBox2.Controls.Add(Me.Label22)
         Me.GroupBox2.Controls.Add(Me.Label23)
         Me.GroupBox2.Controls.Add(Me.Label24)
-        Me.GroupBox2.Location = New System.Drawing.Point(474, 289)
+        Me.GroupBox2.Location = New System.Drawing.Point(474, 364)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(403, 198)
         Me.GroupBox2.TabIndex = 102
@@ -2450,7 +2455,7 @@ Partial Class frmStandings
         'lblNL
         '
         Me.lblNL.AutoSize = True
-        Me.lblNL.Location = New System.Drawing.Point(470, 26)
+        Me.lblNL.Location = New System.Drawing.Point(470, 101)
         Me.lblNL.Name = "lblNL"
         Me.lblNL.Size = New System.Drawing.Size(115, 19)
         Me.lblNL.TabIndex = 101
@@ -2502,7 +2507,7 @@ Partial Class frmStandings
         Me.GroupBox3.Controls.Add(Me.Label29)
         Me.GroupBox3.Controls.Add(Me.Label30)
         Me.GroupBox3.Controls.Add(Me.Label31)
-        Me.GroupBox3.Location = New System.Drawing.Point(474, 68)
+        Me.GroupBox3.Location = New System.Drawing.Point(474, 143)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(403, 198)
         Me.GroupBox3.TabIndex = 100
@@ -2883,11 +2888,50 @@ Partial Class frmStandings
         Me.Label31.TabIndex = 0
         Me.Label31.Text = "Wins"
         '
+        'btnSubmit
+        '
+        Me.btnSubmit.Location = New System.Drawing.Point(764, 806)
+        Me.btnSubmit.Name = "btnSubmit"
+        Me.btnSubmit.Size = New System.Drawing.Size(113, 36)
+        Me.btnSubmit.TabIndex = 104
+        Me.btnSubmit.Text = "Submit"
+        Me.btnSubmit.UseVisualStyleBackColor = True
+        '
+        'btnCancel
+        '
+        Me.btnCancel.Location = New System.Drawing.Point(645, 806)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(113, 36)
+        Me.btnCancel.TabIndex = 105
+        Me.btnCancel.Text = "Cancel"
+        Me.btnCancel.UseVisualStyleBackColor = True
+        '
+        'grpSeason
+        '
+        Me.grpSeason.Controls.Add(Me.ComboBox5)
+        Me.grpSeason.Location = New System.Drawing.Point(24, 12)
+        Me.grpSeason.Name = "grpSeason"
+        Me.grpSeason.Size = New System.Drawing.Size(201, 68)
+        Me.grpSeason.TabIndex = 106
+        Me.grpSeason.TabStop = False
+        Me.grpSeason.Text = "Season"
+        '
+        'ComboBox5
+        '
+        Me.ComboBox5.FormattingEnabled = True
+        Me.ComboBox5.Location = New System.Drawing.Point(22, 26)
+        Me.ComboBox5.Name = "ComboBox5"
+        Me.ComboBox5.Size = New System.Drawing.Size(157, 27)
+        Me.ComboBox5.TabIndex = 0
+        '
         'frmStandings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(897, 734)
+        Me.ClientSize = New System.Drawing.Size(897, 855)
+        Me.Controls.Add(Me.grpSeason)
+        Me.Controls.Add(Me.btnCancel)
+        Me.Controls.Add(Me.btnSubmit)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.grpALWest)
         Me.Controls.Add(Me.GroupBox2)
@@ -2914,6 +2958,7 @@ Partial Class frmStandings
         Me.GroupBox2.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
+        Me.grpSeason.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -3191,4 +3236,8 @@ Partial Class frmStandings
     Friend WithEvents Label29 As Label
     Friend WithEvents Label30 As Label
     Friend WithEvents Label31 As Label
+    Friend WithEvents btnSubmit As Button
+    Friend WithEvents btnCancel As Button
+    Friend WithEvents grpSeason As GroupBox
+    Friend WithEvents ComboBox5 As ComboBox
 End Class
