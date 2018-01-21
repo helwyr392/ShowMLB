@@ -2,7 +2,6 @@
 
     'Form load
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        '------------------------------------------------
         'frmSplash.ShowDialog()
         InitForm()
         Me.BringToFront()
@@ -10,7 +9,6 @@
 
     'Initialize form
     Private Sub InitForm()
-        '------------------------------------------------
         'Initialize status bar
         stlblCopyright.Text = My.Application.Info.Copyright.ToString
         stlblUser.Text = String.Format("Current user: {0}", Environment.UserName.ToString)
@@ -23,7 +21,8 @@
     'Button mouse-enter event
     Private Sub btnStandings_MouseEnter(sender As Object, e As EventArgs) Handles btnStandings.MouseEnter,
         btnPostSeason.MouseEnter, btnWorldSeries.MouseEnter, btnRoster.MouseEnter, btnAwards.MouseEnter
-        '------------------------------------------------
+
+        'Selected button
         Dim btn As Button = CType(sender, Button)
 
         'Change font color to white when mouse enters button
@@ -40,7 +39,8 @@
     'Button mouse-leave event
     Private Sub btnStandings_MouseLeave(sender As Object, e As EventArgs) Handles btnStandings.MouseLeave,
         btnPostSeason.MouseLeave, btnWorldSeries.MouseLeave, btnRoster.MouseLeave, btnAwards.MouseLeave
-        '------------------------------------------------
+
+        'Selected button
         Dim btn As Button = CType(sender, Button)
 
         'Change font color back to black when mouse leaves button
@@ -56,14 +56,17 @@
 
     'Standings button click event
     Private Sub btnStandings_Click(sender As Object, e As EventArgs) Handles btnStandings.Click
-        '------------------------------------------------
         frmStandings.ShowDialog()
     End Sub
 
     'Postseason button click event
     Private Sub btnPostSeason_Click(sender As Object, e As EventArgs) Handles btnPostSeason.Click
-        '------------------------------------------------
         frmPostseason.ShowDialog()
+    End Sub
+
+    'Roster button click event
+    Private Sub btnRoster_Click(sender As Object, e As EventArgs) Handles btnRoster.Click
+        frmRoster.ShowDialog()
     End Sub
 
 End Class

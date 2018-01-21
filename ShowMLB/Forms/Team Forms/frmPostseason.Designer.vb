@@ -26,67 +26,67 @@ Partial Class frmPostseason
         Me.grpSeason = New System.Windows.Forms.GroupBox()
         Me.ComboBox5 = New System.Windows.Forms.ComboBox()
         Me.grpSeries = New System.Windows.Forms.GroupBox()
-        Me.cmbLeague = New System.Windows.Forms.ComboBox()
-        Me.lblLeague = New System.Windows.Forms.Label()
         Me.lblSeries = New System.Windows.Forms.Label()
         Me.cmbSeries = New System.Windows.Forms.ComboBox()
+        Me.lblLeague = New System.Windows.Forms.Label()
+        Me.cmbLeague = New System.Windows.Forms.ComboBox()
         Me.grpGames = New System.Windows.Forms.GroupBox()
-        Me.cmbAway1 = New System.Windows.Forms.ComboBox()
-        Me.cmbHome1 = New System.Windows.Forms.ComboBox()
-        Me.lblAt1 = New System.Windows.Forms.Label()
-        Me.txtAwayScore1 = New System.Windows.Forms.TextBox()
-        Me.txtHomeScore1 = New System.Windows.Forms.TextBox()
-        Me.grpGame1 = New System.Windows.Forms.GroupBox()
         Me.grpGame6 = New System.Windows.Forms.GroupBox()
+        Me.txtAway6 = New System.Windows.Forms.TextBox()
+        Me.txtHome6 = New System.Windows.Forms.TextBox()
         Me.txtHomeScore6 = New System.Windows.Forms.TextBox()
         Me.txtAwayScore6 = New System.Windows.Forms.TextBox()
         Me.lblAt6 = New System.Windows.Forms.Label()
         Me.grpGame4 = New System.Windows.Forms.GroupBox()
+        Me.txtHome4 = New System.Windows.Forms.TextBox()
+        Me.txtAway4 = New System.Windows.Forms.TextBox()
         Me.txtHomeScore4 = New System.Windows.Forms.TextBox()
         Me.txtAwayScore4 = New System.Windows.Forms.TextBox()
         Me.lblAt4 = New System.Windows.Forms.Label()
         Me.grpGame7 = New System.Windows.Forms.GroupBox()
+        Me.txtHome7 = New System.Windows.Forms.TextBox()
+        Me.txtAway7 = New System.Windows.Forms.TextBox()
         Me.txtHomeScore7 = New System.Windows.Forms.TextBox()
         Me.txtAwayScore7 = New System.Windows.Forms.TextBox()
         Me.lblAt7 = New System.Windows.Forms.Label()
         Me.grpGame5 = New System.Windows.Forms.GroupBox()
+        Me.txtHome5 = New System.Windows.Forms.TextBox()
+        Me.txtAway5 = New System.Windows.Forms.TextBox()
         Me.txtHomeScore5 = New System.Windows.Forms.TextBox()
         Me.txtAwayScore5 = New System.Windows.Forms.TextBox()
         Me.lblAt5 = New System.Windows.Forms.Label()
         Me.grpGame3 = New System.Windows.Forms.GroupBox()
+        Me.txtHome3 = New System.Windows.Forms.TextBox()
+        Me.txtAway3 = New System.Windows.Forms.TextBox()
         Me.txtHomeScore3 = New System.Windows.Forms.TextBox()
         Me.txtAwayScore3 = New System.Windows.Forms.TextBox()
         Me.lblAt3 = New System.Windows.Forms.Label()
         Me.grpGame2 = New System.Windows.Forms.GroupBox()
+        Me.txtHome2 = New System.Windows.Forms.TextBox()
+        Me.txtAway2 = New System.Windows.Forms.TextBox()
         Me.txtHomeScore2 = New System.Windows.Forms.TextBox()
         Me.txtAwayScore2 = New System.Windows.Forms.TextBox()
         Me.lblAt2 = New System.Windows.Forms.Label()
-        Me.txtAway2 = New System.Windows.Forms.TextBox()
-        Me.txtHome2 = New System.Windows.Forms.TextBox()
-        Me.txtAway6 = New System.Windows.Forms.TextBox()
-        Me.txtHome6 = New System.Windows.Forms.TextBox()
-        Me.txtHome3 = New System.Windows.Forms.TextBox()
-        Me.txtAway3 = New System.Windows.Forms.TextBox()
-        Me.txtHome5 = New System.Windows.Forms.TextBox()
-        Me.txtAway5 = New System.Windows.Forms.TextBox()
-        Me.txtHome4 = New System.Windows.Forms.TextBox()
-        Me.txtAway4 = New System.Windows.Forms.TextBox()
-        Me.txtHome7 = New System.Windows.Forms.TextBox()
-        Me.txtAway7 = New System.Windows.Forms.TextBox()
+        Me.grpGame1 = New System.Windows.Forms.GroupBox()
+        Me.cmbAway1 = New System.Windows.Forms.ComboBox()
+        Me.txtHomeScore1 = New System.Windows.Forms.TextBox()
+        Me.cmbHome1 = New System.Windows.Forms.ComboBox()
+        Me.txtAwayScore1 = New System.Windows.Forms.TextBox()
+        Me.lblAt1 = New System.Windows.Forms.Label()
         Me.grpControls = New System.Windows.Forms.GroupBox()
-        Me.btnCancel = New System.Windows.Forms.Button()
-        Me.btnUpdate = New System.Windows.Forms.Button()
         Me.btnSubmit = New System.Windows.Forms.Button()
+        Me.btnUpdate = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.grpSeason.SuspendLayout()
         Me.grpSeries.SuspendLayout()
         Me.grpGames.SuspendLayout()
-        Me.grpGame1.SuspendLayout()
         Me.grpGame6.SuspendLayout()
         Me.grpGame4.SuspendLayout()
         Me.grpGame7.SuspendLayout()
         Me.grpGame5.SuspendLayout()
         Me.grpGame3.SuspendLayout()
         Me.grpGame2.SuspendLayout()
+        Me.grpGame1.SuspendLayout()
         Me.grpControls.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -102,6 +102,7 @@ Partial Class frmPostseason
         '
         'ComboBox5
         '
+        Me.ComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.Location = New System.Drawing.Point(22, 26)
         Me.ComboBox5.Name = "ComboBox5"
@@ -121,23 +122,6 @@ Partial Class frmPostseason
         Me.grpSeries.TabStop = False
         Me.grpSeries.Text = "Playoff Series"
         '
-        'cmbLeague
-        '
-        Me.cmbLeague.FormattingEnabled = True
-        Me.cmbLeague.Location = New System.Drawing.Point(22, 58)
-        Me.cmbLeague.Name = "cmbLeague"
-        Me.cmbLeague.Size = New System.Drawing.Size(144, 27)
-        Me.cmbLeague.TabIndex = 0
-        '
-        'lblLeague
-        '
-        Me.lblLeague.AutoSize = True
-        Me.lblLeague.Location = New System.Drawing.Point(18, 36)
-        Me.lblLeague.Name = "lblLeague"
-        Me.lblLeague.Size = New System.Drawing.Size(56, 19)
-        Me.lblLeague.TabIndex = 1
-        Me.lblLeague.Text = "League"
-        '
         'lblSeries
         '
         Me.lblSeries.AutoSize = True
@@ -149,11 +133,30 @@ Partial Class frmPostseason
         '
         'cmbSeries
         '
+        Me.cmbSeries.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbSeries.FormattingEnabled = True
         Me.cmbSeries.Location = New System.Drawing.Point(191, 58)
         Me.cmbSeries.Name = "cmbSeries"
         Me.cmbSeries.Size = New System.Drawing.Size(181, 27)
         Me.cmbSeries.TabIndex = 2
+        '
+        'lblLeague
+        '
+        Me.lblLeague.AutoSize = True
+        Me.lblLeague.Location = New System.Drawing.Point(18, 36)
+        Me.lblLeague.Name = "lblLeague"
+        Me.lblLeague.Size = New System.Drawing.Size(56, 19)
+        Me.lblLeague.TabIndex = 1
+        Me.lblLeague.Text = "League"
+        '
+        'cmbLeague
+        '
+        Me.cmbLeague.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbLeague.FormattingEnabled = True
+        Me.cmbLeague.Location = New System.Drawing.Point(22, 58)
+        Me.cmbLeague.Name = "cmbLeague"
+        Me.cmbLeague.Size = New System.Drawing.Size(144, 27)
+        Me.cmbLeague.TabIndex = 0
         '
         'grpGames
         '
@@ -171,61 +174,6 @@ Partial Class frmPostseason
         Me.grpGames.TabStop = False
         Me.grpGames.Text = "Games"
         '
-        'cmbAway1
-        '
-        Me.cmbAway1.FormattingEnabled = True
-        Me.cmbAway1.Location = New System.Drawing.Point(45, 30)
-        Me.cmbAway1.Name = "cmbAway1"
-        Me.cmbAway1.Size = New System.Drawing.Size(172, 27)
-        Me.cmbAway1.TabIndex = 1
-        '
-        'cmbHome1
-        '
-        Me.cmbHome1.FormattingEnabled = True
-        Me.cmbHome1.Location = New System.Drawing.Point(45, 63)
-        Me.cmbHome1.Name = "cmbHome1"
-        Me.cmbHome1.Size = New System.Drawing.Size(172, 27)
-        Me.cmbHome1.TabIndex = 2
-        '
-        'lblAt1
-        '
-        Me.lblAt1.AutoSize = True
-        Me.lblAt1.Location = New System.Drawing.Point(17, 66)
-        Me.lblAt1.Name = "lblAt1"
-        Me.lblAt1.Size = New System.Drawing.Size(23, 19)
-        Me.lblAt1.TabIndex = 3
-        Me.lblAt1.Text = "@"
-        '
-        'txtAwayScore1
-        '
-        Me.txtAwayScore1.Location = New System.Drawing.Point(223, 30)
-        Me.txtAwayScore1.Name = "txtAwayScore1"
-        Me.txtAwayScore1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.txtAwayScore1.Size = New System.Drawing.Size(22, 27)
-        Me.txtAwayScore1.TabIndex = 1
-        '
-        'txtHomeScore1
-        '
-        Me.txtHomeScore1.Location = New System.Drawing.Point(223, 63)
-        Me.txtHomeScore1.Name = "txtHomeScore1"
-        Me.txtHomeScore1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.txtHomeScore1.Size = New System.Drawing.Size(22, 27)
-        Me.txtHomeScore1.TabIndex = 2
-        '
-        'grpGame1
-        '
-        Me.grpGame1.Controls.Add(Me.cmbAway1)
-        Me.grpGame1.Controls.Add(Me.txtHomeScore1)
-        Me.grpGame1.Controls.Add(Me.cmbHome1)
-        Me.grpGame1.Controls.Add(Me.txtAwayScore1)
-        Me.grpGame1.Controls.Add(Me.lblAt1)
-        Me.grpGame1.Location = New System.Drawing.Point(22, 35)
-        Me.grpGame1.Name = "grpGame1"
-        Me.grpGame1.Size = New System.Drawing.Size(262, 112)
-        Me.grpGame1.TabIndex = 6
-        Me.grpGame1.TabStop = False
-        Me.grpGame1.Text = "Game One"
-        '
         'grpGame6
         '
         Me.grpGame6.Controls.Add(Me.txtAway6)
@@ -239,6 +187,26 @@ Partial Class frmPostseason
         Me.grpGame6.TabIndex = 7
         Me.grpGame6.TabStop = False
         Me.grpGame6.Text = "Game Six"
+        '
+        'txtAway6
+        '
+        Me.txtAway6.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtAway6.Location = New System.Drawing.Point(45, 30)
+        Me.txtAway6.Name = "txtAway6"
+        Me.txtAway6.ReadOnly = True
+        Me.txtAway6.Size = New System.Drawing.Size(172, 27)
+        Me.txtAway6.TabIndex = 8
+        Me.txtAway6.TabStop = False
+        '
+        'txtHome6
+        '
+        Me.txtHome6.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtHome6.Location = New System.Drawing.Point(45, 63)
+        Me.txtHome6.Name = "txtHome6"
+        Me.txtHome6.ReadOnly = True
+        Me.txtHome6.Size = New System.Drawing.Size(172, 27)
+        Me.txtHome6.TabIndex = 9
+        Me.txtHome6.TabStop = False
         '
         'txtHomeScore6
         '
@@ -279,6 +247,26 @@ Partial Class frmPostseason
         Me.grpGame4.TabStop = False
         Me.grpGame4.Text = "Game Four"
         '
+        'txtHome4
+        '
+        Me.txtHome4.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtHome4.Location = New System.Drawing.Point(45, 63)
+        Me.txtHome4.Name = "txtHome4"
+        Me.txtHome4.ReadOnly = True
+        Me.txtHome4.Size = New System.Drawing.Size(172, 27)
+        Me.txtHome4.TabIndex = 14
+        Me.txtHome4.TabStop = False
+        '
+        'txtAway4
+        '
+        Me.txtAway4.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtAway4.Location = New System.Drawing.Point(45, 30)
+        Me.txtAway4.Name = "txtAway4"
+        Me.txtAway4.ReadOnly = True
+        Me.txtAway4.Size = New System.Drawing.Size(172, 27)
+        Me.txtAway4.TabIndex = 15
+        Me.txtAway4.TabStop = False
+        '
         'txtHomeScore4
         '
         Me.txtHomeScore4.Location = New System.Drawing.Point(223, 63)
@@ -317,6 +305,26 @@ Partial Class frmPostseason
         Me.grpGame7.TabIndex = 7
         Me.grpGame7.TabStop = False
         Me.grpGame7.Text = "Game Seven"
+        '
+        'txtHome7
+        '
+        Me.txtHome7.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtHome7.Location = New System.Drawing.Point(45, 63)
+        Me.txtHome7.Name = "txtHome7"
+        Me.txtHome7.ReadOnly = True
+        Me.txtHome7.Size = New System.Drawing.Size(172, 27)
+        Me.txtHome7.TabIndex = 16
+        Me.txtHome7.TabStop = False
+        '
+        'txtAway7
+        '
+        Me.txtAway7.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtAway7.Location = New System.Drawing.Point(45, 30)
+        Me.txtAway7.Name = "txtAway7"
+        Me.txtAway7.ReadOnly = True
+        Me.txtAway7.Size = New System.Drawing.Size(172, 27)
+        Me.txtAway7.TabIndex = 17
+        Me.txtAway7.TabStop = False
         '
         'txtHomeScore7
         '
@@ -357,6 +365,26 @@ Partial Class frmPostseason
         Me.grpGame5.TabStop = False
         Me.grpGame5.Text = "Game Five"
         '
+        'txtHome5
+        '
+        Me.txtHome5.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtHome5.Location = New System.Drawing.Point(45, 63)
+        Me.txtHome5.Name = "txtHome5"
+        Me.txtHome5.ReadOnly = True
+        Me.txtHome5.Size = New System.Drawing.Size(172, 27)
+        Me.txtHome5.TabIndex = 12
+        Me.txtHome5.TabStop = False
+        '
+        'txtAway5
+        '
+        Me.txtAway5.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtAway5.Location = New System.Drawing.Point(45, 30)
+        Me.txtAway5.Name = "txtAway5"
+        Me.txtAway5.ReadOnly = True
+        Me.txtAway5.Size = New System.Drawing.Size(172, 27)
+        Me.txtAway5.TabIndex = 13
+        Me.txtAway5.TabStop = False
+        '
         'txtHomeScore5
         '
         Me.txtHomeScore5.Location = New System.Drawing.Point(223, 63)
@@ -395,6 +423,26 @@ Partial Class frmPostseason
         Me.grpGame3.TabIndex = 7
         Me.grpGame3.TabStop = False
         Me.grpGame3.Text = "Game Three"
+        '
+        'txtHome3
+        '
+        Me.txtHome3.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtHome3.Location = New System.Drawing.Point(45, 63)
+        Me.txtHome3.Name = "txtHome3"
+        Me.txtHome3.ReadOnly = True
+        Me.txtHome3.Size = New System.Drawing.Size(172, 27)
+        Me.txtHome3.TabIndex = 10
+        Me.txtHome3.TabStop = False
+        '
+        'txtAway3
+        '
+        Me.txtAway3.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtAway3.Location = New System.Drawing.Point(45, 30)
+        Me.txtAway3.Name = "txtAway3"
+        Me.txtAway3.ReadOnly = True
+        Me.txtAway3.Size = New System.Drawing.Size(172, 27)
+        Me.txtAway3.TabIndex = 11
+        Me.txtAway3.TabStop = False
         '
         'txtHomeScore3
         '
@@ -435,6 +483,26 @@ Partial Class frmPostseason
         Me.grpGame2.TabStop = False
         Me.grpGame2.Text = "Game Two"
         '
+        'txtHome2
+        '
+        Me.txtHome2.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtHome2.Location = New System.Drawing.Point(45, 63)
+        Me.txtHome2.Name = "txtHome2"
+        Me.txtHome2.ReadOnly = True
+        Me.txtHome2.Size = New System.Drawing.Size(172, 27)
+        Me.txtHome2.TabIndex = 7
+        Me.txtHome2.TabStop = False
+        '
+        'txtAway2
+        '
+        Me.txtAway2.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtAway2.Location = New System.Drawing.Point(45, 30)
+        Me.txtAway2.Name = "txtAway2"
+        Me.txtAway2.ReadOnly = True
+        Me.txtAway2.Size = New System.Drawing.Size(172, 27)
+        Me.txtAway2.TabIndex = 6
+        Me.txtAway2.TabStop = False
+        '
         'txtHomeScore2
         '
         Me.txtHomeScore2.Location = New System.Drawing.Point(223, 63)
@@ -460,131 +528,68 @@ Partial Class frmPostseason
         Me.lblAt2.TabIndex = 3
         Me.lblAt2.Text = "@"
         '
-        'txtAway2
+        'grpGame1
         '
-        Me.txtAway2.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.txtAway2.Location = New System.Drawing.Point(45, 30)
-        Me.txtAway2.Name = "txtAway2"
-        Me.txtAway2.ReadOnly = True
-        Me.txtAway2.Size = New System.Drawing.Size(172, 27)
-        Me.txtAway2.TabIndex = 6
-        Me.txtAway2.TabStop = False
+        Me.grpGame1.Controls.Add(Me.cmbAway1)
+        Me.grpGame1.Controls.Add(Me.txtHomeScore1)
+        Me.grpGame1.Controls.Add(Me.cmbHome1)
+        Me.grpGame1.Controls.Add(Me.txtAwayScore1)
+        Me.grpGame1.Controls.Add(Me.lblAt1)
+        Me.grpGame1.Location = New System.Drawing.Point(22, 35)
+        Me.grpGame1.Name = "grpGame1"
+        Me.grpGame1.Size = New System.Drawing.Size(262, 112)
+        Me.grpGame1.TabIndex = 6
+        Me.grpGame1.TabStop = False
+        Me.grpGame1.Text = "Game One"
         '
-        'txtHome2
+        'cmbAway1
         '
-        Me.txtHome2.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.txtHome2.Location = New System.Drawing.Point(45, 63)
-        Me.txtHome2.Name = "txtHome2"
-        Me.txtHome2.ReadOnly = True
-        Me.txtHome2.Size = New System.Drawing.Size(172, 27)
-        Me.txtHome2.TabIndex = 7
-        Me.txtHome2.TabStop = False
+        Me.cmbAway1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbAway1.FormattingEnabled = True
+        Me.cmbAway1.Location = New System.Drawing.Point(45, 30)
+        Me.cmbAway1.Name = "cmbAway1"
+        Me.cmbAway1.Size = New System.Drawing.Size(172, 27)
+        Me.cmbAway1.TabIndex = 1
         '
-        'txtAway6
+        'txtHomeScore1
         '
-        Me.txtAway6.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.txtAway6.Location = New System.Drawing.Point(45, 30)
-        Me.txtAway6.Name = "txtAway6"
-        Me.txtAway6.ReadOnly = True
-        Me.txtAway6.Size = New System.Drawing.Size(172, 27)
-        Me.txtAway6.TabIndex = 8
-        Me.txtAway6.TabStop = False
+        Me.txtHomeScore1.Location = New System.Drawing.Point(223, 63)
+        Me.txtHomeScore1.Name = "txtHomeScore1"
+        Me.txtHomeScore1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.txtHomeScore1.Size = New System.Drawing.Size(22, 27)
+        Me.txtHomeScore1.TabIndex = 2
         '
-        'txtHome6
+        'cmbHome1
         '
-        Me.txtHome6.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.txtHome6.Location = New System.Drawing.Point(45, 63)
-        Me.txtHome6.Name = "txtHome6"
-        Me.txtHome6.ReadOnly = True
-        Me.txtHome6.Size = New System.Drawing.Size(172, 27)
-        Me.txtHome6.TabIndex = 9
-        Me.txtHome6.TabStop = False
+        Me.cmbHome1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbHome1.FormattingEnabled = True
+        Me.cmbHome1.Location = New System.Drawing.Point(45, 63)
+        Me.cmbHome1.Name = "cmbHome1"
+        Me.cmbHome1.Size = New System.Drawing.Size(172, 27)
+        Me.cmbHome1.TabIndex = 2
         '
-        'txtHome3
+        'txtAwayScore1
         '
-        Me.txtHome3.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.txtHome3.Location = New System.Drawing.Point(45, 63)
-        Me.txtHome3.Name = "txtHome3"
-        Me.txtHome3.ReadOnly = True
-        Me.txtHome3.Size = New System.Drawing.Size(172, 27)
-        Me.txtHome3.TabIndex = 10
-        Me.txtHome3.TabStop = False
+        Me.txtAwayScore1.Location = New System.Drawing.Point(223, 30)
+        Me.txtAwayScore1.Name = "txtAwayScore1"
+        Me.txtAwayScore1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.txtAwayScore1.Size = New System.Drawing.Size(22, 27)
+        Me.txtAwayScore1.TabIndex = 1
         '
-        'txtAway3
+        'lblAt1
         '
-        Me.txtAway3.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.txtAway3.Location = New System.Drawing.Point(45, 30)
-        Me.txtAway3.Name = "txtAway3"
-        Me.txtAway3.ReadOnly = True
-        Me.txtAway3.Size = New System.Drawing.Size(172, 27)
-        Me.txtAway3.TabIndex = 11
-        Me.txtAway3.TabStop = False
-        '
-        'txtHome5
-        '
-        Me.txtHome5.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.txtHome5.Location = New System.Drawing.Point(45, 63)
-        Me.txtHome5.Name = "txtHome5"
-        Me.txtHome5.ReadOnly = True
-        Me.txtHome5.Size = New System.Drawing.Size(172, 27)
-        Me.txtHome5.TabIndex = 12
-        Me.txtHome5.TabStop = False
-        '
-        'txtAway5
-        '
-        Me.txtAway5.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.txtAway5.Location = New System.Drawing.Point(45, 30)
-        Me.txtAway5.Name = "txtAway5"
-        Me.txtAway5.ReadOnly = True
-        Me.txtAway5.Size = New System.Drawing.Size(172, 27)
-        Me.txtAway5.TabIndex = 13
-        Me.txtAway5.TabStop = False
-        '
-        'txtHome4
-        '
-        Me.txtHome4.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.txtHome4.Location = New System.Drawing.Point(45, 63)
-        Me.txtHome4.Name = "txtHome4"
-        Me.txtHome4.ReadOnly = True
-        Me.txtHome4.Size = New System.Drawing.Size(172, 27)
-        Me.txtHome4.TabIndex = 14
-        Me.txtHome4.TabStop = False
-        '
-        'txtAway4
-        '
-        Me.txtAway4.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.txtAway4.Location = New System.Drawing.Point(45, 30)
-        Me.txtAway4.Name = "txtAway4"
-        Me.txtAway4.ReadOnly = True
-        Me.txtAway4.Size = New System.Drawing.Size(172, 27)
-        Me.txtAway4.TabIndex = 15
-        Me.txtAway4.TabStop = False
-        '
-        'txtHome7
-        '
-        Me.txtHome7.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.txtHome7.Location = New System.Drawing.Point(45, 63)
-        Me.txtHome7.Name = "txtHome7"
-        Me.txtHome7.ReadOnly = True
-        Me.txtHome7.Size = New System.Drawing.Size(172, 27)
-        Me.txtHome7.TabIndex = 16
-        Me.txtHome7.TabStop = False
-        '
-        'txtAway7
-        '
-        Me.txtAway7.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.txtAway7.Location = New System.Drawing.Point(45, 30)
-        Me.txtAway7.Name = "txtAway7"
-        Me.txtAway7.ReadOnly = True
-        Me.txtAway7.Size = New System.Drawing.Size(172, 27)
-        Me.txtAway7.TabIndex = 17
-        Me.txtAway7.TabStop = False
+        Me.lblAt1.AutoSize = True
+        Me.lblAt1.Location = New System.Drawing.Point(17, 66)
+        Me.lblAt1.Name = "lblAt1"
+        Me.lblAt1.Size = New System.Drawing.Size(23, 19)
+        Me.lblAt1.TabIndex = 3
+        Me.lblAt1.Text = "@"
         '
         'grpControls
         '
+        Me.grpControls.Controls.Add(Me.Button1)
         Me.grpControls.Controls.Add(Me.btnSubmit)
         Me.grpControls.Controls.Add(Me.btnUpdate)
-        Me.grpControls.Controls.Add(Me.btnCancel)
         Me.grpControls.Location = New System.Drawing.Point(453, 119)
         Me.grpControls.Name = "grpControls"
         Me.grpControls.Size = New System.Drawing.Size(460, 115)
@@ -592,19 +597,19 @@ Partial Class frmPostseason
         Me.grpControls.TabStop = False
         Me.grpControls.Text = "Controls"
         '
-        'btnCancel
+        'btnSubmit
         '
-        Me.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnCancel.FlatAppearance.BorderColor = System.Drawing.Color.Navy
-        Me.btnCancel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnCancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCancel.Location = New System.Drawing.Point(27, 45)
-        Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(120, 40)
-        Me.btnCancel.TabIndex = 0
-        Me.btnCancel.Text = "Cancel"
-        Me.btnCancel.UseVisualStyleBackColor = True
+        Me.btnSubmit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnSubmit.FlatAppearance.BorderColor = System.Drawing.Color.Navy
+        Me.btnSubmit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnSubmit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSubmit.Location = New System.Drawing.Point(312, 45)
+        Me.btnSubmit.Name = "btnSubmit"
+        Me.btnSubmit.Size = New System.Drawing.Size(120, 40)
+        Me.btnSubmit.TabIndex = 15
+        Me.btnSubmit.Text = "Submit"
+        Me.btnSubmit.UseVisualStyleBackColor = True
         '
         'btnUpdate
         '
@@ -622,19 +627,17 @@ Partial Class frmPostseason
         Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = True
         '
-        'btnSubmit
+        'Button1
         '
-        Me.btnSubmit.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnSubmit.FlatAppearance.BorderColor = System.Drawing.Color.Navy
-        Me.btnSubmit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnSubmit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSubmit.Location = New System.Drawing.Point(313, 45)
-        Me.btnSubmit.Name = "btnSubmit"
-        Me.btnSubmit.Size = New System.Drawing.Size(120, 40)
-        Me.btnSubmit.TabIndex = 15
-        Me.btnSubmit.Text = "Submit"
-        Me.btnSubmit.UseVisualStyleBackColor = True
+        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Location = New System.Drawing.Point(28, 45)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(120, 40)
+        Me.Button1.TabIndex = 111
+        Me.Button1.Text = "Cancel"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'frmPostseason
         '
@@ -647,7 +650,7 @@ Partial Class frmPostseason
         Me.Controls.Add(Me.grpSeason)
         Me.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmPostseason"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "MLB The Show | Postseason"
@@ -655,8 +658,6 @@ Partial Class frmPostseason
         Me.grpSeries.ResumeLayout(False)
         Me.grpSeries.PerformLayout()
         Me.grpGames.ResumeLayout(False)
-        Me.grpGame1.ResumeLayout(False)
-        Me.grpGame1.PerformLayout()
         Me.grpGame6.ResumeLayout(False)
         Me.grpGame6.PerformLayout()
         Me.grpGame4.ResumeLayout(False)
@@ -669,6 +670,8 @@ Partial Class frmPostseason
         Me.grpGame3.PerformLayout()
         Me.grpGame2.ResumeLayout(False)
         Me.grpGame2.PerformLayout()
+        Me.grpGame1.ResumeLayout(False)
+        Me.grpGame1.PerformLayout()
         Me.grpControls.ResumeLayout(False)
         Me.ResumeLayout(False)
 
@@ -727,5 +730,5 @@ Partial Class frmPostseason
     Friend WithEvents grpControls As GroupBox
     Friend WithEvents btnSubmit As Button
     Friend WithEvents btnUpdate As Button
-    Friend WithEvents btnCancel As Button
+    Friend WithEvents Button1 As Button
 End Class

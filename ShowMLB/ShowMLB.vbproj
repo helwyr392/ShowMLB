@@ -104,6 +104,12 @@
     <Compile Include="Forms\Team Forms\frmStandings.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Player Forms\frmRoster.Designer.vb">
+      <DependentUpon>frmRoster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Player Forms\frmRoster.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -133,6 +139,9 @@
     <EmbeddedResource Include="Forms\Team Forms\frmStandings.resx">
       <DependentUpon>frmStandings.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Player Forms\frmRoster.resx">
+      <DependentUpon>frmRoster.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -155,7 +164,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
-    <Folder Include="Forms\Player Forms\" />
     <Folder Include="Modules\" />
   </ItemGroup>
   <ItemGroup>

@@ -1,6 +1,6 @@
 ﻿Public Class frmStandings
 
-    Private Sub btn_MouseEnter(sender As Object, e As EventArgs) Handles btnSubmit.MouseEnter, btnCancel.MouseEnter
+    Private Sub btn_MouseEnter(sender As Object, e As EventArgs) Handles btnSubmit.MouseEnter
 
         Dim btn As Button = CType(sender, Button)
 
@@ -11,7 +11,7 @@
 
     End Sub
 
-    Private Sub btn_MouseLeave(sender As Object, e As EventArgs) Handles btnSubmit.MouseLeave, btnCancel.MouseLeave
+    Private Sub btn_MouseLeave(sender As Object, e As EventArgs) Handles btnSubmit.MouseLeave
 
         Dim btn As Button = CType(sender, Button)
 
@@ -28,7 +28,7 @@
     End Sub
 
 
-    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
+    Private Sub btnCancel_Click(sender As Object, e As EventArgs)
 
     End Sub
 

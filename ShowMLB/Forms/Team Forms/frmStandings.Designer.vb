@@ -296,9 +296,9 @@ Partial Class frmStandings
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.btnSubmit = New System.Windows.Forms.Button()
-        Me.btnCancel = New System.Windows.Forms.Button()
         Me.grpSeason = New System.Windows.Forms.GroupBox()
         Me.ComboBox5 = New System.Windows.Forms.ComboBox()
+        Me.btnCancel = New System.Windows.Forms.Button()
         Me.grpALEast.SuspendLayout()
         Me.grpALCentral.SuspendLayout()
         Me.grpALWest.SuspendLayout()
@@ -411,6 +411,7 @@ Partial Class frmStandings
         '
         'ComboBox4
         '
+        Me.ComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox4.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.Location = New System.Drawing.Point(7, 157)
@@ -469,6 +470,7 @@ Partial Class frmStandings
         '
         'ComboBox3
         '
+        Me.ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox3.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Location = New System.Drawing.Point(7, 128)
@@ -535,6 +537,7 @@ Partial Class frmStandings
         '
         'ComboBox2
         '
+        Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox2.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Location = New System.Drawing.Point(7, 99)
@@ -601,6 +604,7 @@ Partial Class frmStandings
         '
         'ComboBox1
         '
+        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Location = New System.Drawing.Point(7, 70)
@@ -667,6 +671,7 @@ Partial Class frmStandings
         '
         'cmbALEast1
         '
+        Me.cmbALEast1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbALEast1.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbALEast1.FormattingEnabled = True
         Me.cmbALEast1.Location = New System.Drawing.Point(7, 41)
@@ -847,6 +852,7 @@ Partial Class frmStandings
         '
         'cmbALCentral5
         '
+        Me.cmbALCentral5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbALCentral5.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbALCentral5.FormattingEnabled = True
         Me.cmbALCentral5.Location = New System.Drawing.Point(7, 157)
@@ -905,6 +911,7 @@ Partial Class frmStandings
         '
         'cmbALCentral4
         '
+        Me.cmbALCentral4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbALCentral4.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbALCentral4.FormattingEnabled = True
         Me.cmbALCentral4.Location = New System.Drawing.Point(7, 128)
@@ -971,6 +978,7 @@ Partial Class frmStandings
         '
         'cmbALCentral3
         '
+        Me.cmbALCentral3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbALCentral3.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbALCentral3.FormattingEnabled = True
         Me.cmbALCentral3.Location = New System.Drawing.Point(7, 99)
@@ -1037,6 +1045,7 @@ Partial Class frmStandings
         '
         'cmbALCentral2
         '
+        Me.cmbALCentral2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbALCentral2.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbALCentral2.FormattingEnabled = True
         Me.cmbALCentral2.Location = New System.Drawing.Point(7, 70)
@@ -1103,6 +1112,7 @@ Partial Class frmStandings
         '
         'cmbALCentral1
         '
+        Me.cmbALCentral1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbALCentral1.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbALCentral1.FormattingEnabled = True
         Me.cmbALCentral1.Location = New System.Drawing.Point(7, 41)
@@ -1274,6 +1284,7 @@ Partial Class frmStandings
         '
         'cmbALWest5
         '
+        Me.cmbALWest5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbALWest5.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbALWest5.FormattingEnabled = True
         Me.cmbALWest5.Location = New System.Drawing.Point(7, 157)
@@ -1332,6 +1343,7 @@ Partial Class frmStandings
         '
         'cmbALWest4
         '
+        Me.cmbALWest4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbALWest4.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbALWest4.FormattingEnabled = True
         Me.cmbALWest4.Location = New System.Drawing.Point(7, 128)
@@ -1398,6 +1410,7 @@ Partial Class frmStandings
         '
         'cmbALWest3
         '
+        Me.cmbALWest3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbALWest3.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbALWest3.FormattingEnabled = True
         Me.cmbALWest3.Location = New System.Drawing.Point(7, 99)
@@ -1464,6 +1477,7 @@ Partial Class frmStandings
         '
         'cmbALWest2
         '
+        Me.cmbALWest2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbALWest2.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbALWest2.FormattingEnabled = True
         Me.cmbALWest2.Location = New System.Drawing.Point(7, 70)
@@ -1530,6 +1544,7 @@ Partial Class frmStandings
         '
         'cmbALWest1
         '
+        Me.cmbALWest1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbALWest1.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbALWest1.FormattingEnabled = True
         Me.cmbALWest1.Location = New System.Drawing.Point(7, 41)
@@ -1701,6 +1716,7 @@ Partial Class frmStandings
         '
         'cmbNLWest5
         '
+        Me.cmbNLWest5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbNLWest5.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNLWest5.FormattingEnabled = True
         Me.cmbNLWest5.Location = New System.Drawing.Point(7, 157)
@@ -1759,6 +1775,7 @@ Partial Class frmStandings
         '
         'cmbNLWest4
         '
+        Me.cmbNLWest4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbNLWest4.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNLWest4.FormattingEnabled = True
         Me.cmbNLWest4.Location = New System.Drawing.Point(7, 128)
@@ -1825,6 +1842,7 @@ Partial Class frmStandings
         '
         'cmbNLWest3
         '
+        Me.cmbNLWest3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbNLWest3.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNLWest3.FormattingEnabled = True
         Me.cmbNLWest3.Location = New System.Drawing.Point(7, 99)
@@ -1891,6 +1909,7 @@ Partial Class frmStandings
         '
         'cmbNLWest2
         '
+        Me.cmbNLWest2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbNLWest2.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNLWest2.FormattingEnabled = True
         Me.cmbNLWest2.Location = New System.Drawing.Point(7, 70)
@@ -1957,6 +1976,7 @@ Partial Class frmStandings
         '
         'cmbNLWest1
         '
+        Me.cmbNLWest1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbNLWest1.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNLWest1.FormattingEnabled = True
         Me.cmbNLWest1.Location = New System.Drawing.Point(7, 41)
@@ -2128,6 +2148,7 @@ Partial Class frmStandings
         '
         'cmbNLCentral5
         '
+        Me.cmbNLCentral5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbNLCentral5.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNLCentral5.FormattingEnabled = True
         Me.cmbNLCentral5.Location = New System.Drawing.Point(7, 157)
@@ -2186,6 +2207,7 @@ Partial Class frmStandings
         '
         'cmbNLCentral4
         '
+        Me.cmbNLCentral4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbNLCentral4.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNLCentral4.FormattingEnabled = True
         Me.cmbNLCentral4.Location = New System.Drawing.Point(7, 128)
@@ -2252,6 +2274,7 @@ Partial Class frmStandings
         '
         'cmbNLCentral3
         '
+        Me.cmbNLCentral3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbNLCentral3.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNLCentral3.FormattingEnabled = True
         Me.cmbNLCentral3.Location = New System.Drawing.Point(7, 99)
@@ -2318,6 +2341,7 @@ Partial Class frmStandings
         '
         'cmbNLCentral2
         '
+        Me.cmbNLCentral2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbNLCentral2.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNLCentral2.FormattingEnabled = True
         Me.cmbNLCentral2.Location = New System.Drawing.Point(7, 70)
@@ -2384,6 +2408,7 @@ Partial Class frmStandings
         '
         'cmbNLCentral1
         '
+        Me.cmbNLCentral1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbNLCentral1.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNLCentral1.FormattingEnabled = True
         Me.cmbNLCentral1.Location = New System.Drawing.Point(7, 41)
@@ -2564,6 +2589,7 @@ Partial Class frmStandings
         '
         'cmbNLEast5
         '
+        Me.cmbNLEast5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbNLEast5.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNLEast5.FormattingEnabled = True
         Me.cmbNLEast5.Location = New System.Drawing.Point(7, 157)
@@ -2622,6 +2648,7 @@ Partial Class frmStandings
         '
         'cmbNLEast4
         '
+        Me.cmbNLEast4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbNLEast4.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNLEast4.FormattingEnabled = True
         Me.cmbNLEast4.Location = New System.Drawing.Point(7, 128)
@@ -2688,6 +2715,7 @@ Partial Class frmStandings
         '
         'cmbNLEast3
         '
+        Me.cmbNLEast3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbNLEast3.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNLEast3.FormattingEnabled = True
         Me.cmbNLEast3.Location = New System.Drawing.Point(7, 99)
@@ -2754,6 +2782,7 @@ Partial Class frmStandings
         '
         'cmbNLEast2
         '
+        Me.cmbNLEast2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbNLEast2.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNLEast2.FormattingEnabled = True
         Me.cmbNLEast2.Location = New System.Drawing.Point(7, 70)
@@ -2820,6 +2849,7 @@ Partial Class frmStandings
         '
         'cmbNLEast1
         '
+        Me.cmbNLEast1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cmbNLEast1.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbNLEast1.FormattingEnabled = True
         Me.cmbNLEast1.Location = New System.Drawing.Point(7, 41)
@@ -2902,20 +2932,6 @@ Partial Class frmStandings
         Me.btnSubmit.Text = "Submit"
         Me.btnSubmit.UseVisualStyleBackColor = True
         '
-        'btnCancel
-        '
-        Me.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnCancel.FlatAppearance.BorderColor = System.Drawing.Color.Navy
-        Me.btnCancel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnCancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCancel.Location = New System.Drawing.Point(645, 806)
-        Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(113, 36)
-        Me.btnCancel.TabIndex = 199
-        Me.btnCancel.Text = "Cancel"
-        Me.btnCancel.UseVisualStyleBackColor = True
-        '
         'grpSeason
         '
         Me.grpSeason.Controls.Add(Me.ComboBox5)
@@ -2928,19 +2944,33 @@ Partial Class frmStandings
         '
         'ComboBox5
         '
+        Me.ComboBox5.BackColor = System.Drawing.SystemColors.Window
+        Me.ComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.Location = New System.Drawing.Point(22, 26)
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(157, 27)
         Me.ComboBox5.TabIndex = 0
         '
+        'btnCancel
+        '
+        Me.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnCancel.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCancel.Location = New System.Drawing.Point(645, 806)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(113, 36)
+        Me.btnCancel.TabIndex = 1
+        Me.btnCancel.Text = "Cancel"
+        Me.btnCancel.UseVisualStyleBackColor = True
+        '
         'frmStandings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(897, 855)
-        Me.Controls.Add(Me.grpSeason)
         Me.Controls.Add(Me.btnCancel)
+        Me.Controls.Add(Me.grpSeason)
         Me.Controls.Add(Me.btnSubmit)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.grpALWest)
@@ -3247,7 +3277,7 @@ Partial Class frmStandings
     Friend WithEvents Label30 As Label
     Friend WithEvents Label31 As Label
     Friend WithEvents btnSubmit As Button
-    Friend WithEvents btnCancel As Button
     Friend WithEvents grpSeason As GroupBox
     Friend WithEvents ComboBox5 As ComboBox
+    Friend WithEvents btnCancel As Button
 End Class
