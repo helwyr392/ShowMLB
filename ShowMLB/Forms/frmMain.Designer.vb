@@ -76,7 +76,7 @@ Partial Class frmMain
         Me.btnAwards.Location = New System.Drawing.Point(375, 447)
         Me.btnAwards.Name = "btnAwards"
         Me.btnAwards.Size = New System.Drawing.Size(235, 57)
-        Me.btnAwards.TabIndex = 27
+        Me.btnAwards.TabIndex = 4
         Me.btnAwards.Text = "Season Awards"
         Me.btnAwards.UseVisualStyleBackColor = True
         '
@@ -90,7 +90,8 @@ Partial Class frmMain
         Me.button4.Location = New System.Drawing.Point(375, 542)
         Me.button4.Name = "button4"
         Me.button4.Size = New System.Drawing.Size(235, 57)
-        Me.button4.TabIndex = 26
+        Me.button4.TabIndex = 6
+        Me.button4.TabStop = False
         Me.button4.UseVisualStyleBackColor = True
         '
         'btnRoster
@@ -104,7 +105,7 @@ Partial Class frmMain
         Me.btnRoster.Location = New System.Drawing.Point(375, 352)
         Me.btnRoster.Name = "btnRoster"
         Me.btnRoster.Size = New System.Drawing.Size(235, 57)
-        Me.btnRoster.TabIndex = 25
+        Me.btnRoster.TabIndex = 2
         Me.btnRoster.Text = "Team Roster"
         Me.btnRoster.UseVisualStyleBackColor = True
         '
@@ -119,7 +120,7 @@ Partial Class frmMain
         Me.btnPostSeason.Location = New System.Drawing.Point(113, 447)
         Me.btnPostSeason.Name = "btnPostSeason"
         Me.btnPostSeason.Size = New System.Drawing.Size(235, 57)
-        Me.btnPostSeason.TabIndex = 24
+        Me.btnPostSeason.TabIndex = 3
         Me.btnPostSeason.Text = "Post Season"
         Me.btnPostSeason.UseVisualStyleBackColor = True
         '
@@ -134,7 +135,7 @@ Partial Class frmMain
         Me.btnWorldSeries.Location = New System.Drawing.Point(113, 542)
         Me.btnWorldSeries.Name = "btnWorldSeries"
         Me.btnWorldSeries.Size = New System.Drawing.Size(235, 57)
-        Me.btnWorldSeries.TabIndex = 23
+        Me.btnWorldSeries.TabIndex = 5
         Me.btnWorldSeries.Text = "World Series"
         Me.btnWorldSeries.UseVisualStyleBackColor = True
         '
@@ -149,7 +150,7 @@ Partial Class frmMain
         Me.btnStandings.Location = New System.Drawing.Point(113, 352)
         Me.btnStandings.Name = "btnStandings"
         Me.btnStandings.Size = New System.Drawing.Size(235, 57)
-        Me.btnStandings.TabIndex = 22
+        Me.btnStandings.TabIndex = 1
         Me.btnStandings.Text = "Season Standings"
         Me.btnStandings.UseVisualStyleBackColor = True
         '
@@ -171,7 +172,7 @@ Partial Class frmMain
         Me.grpCurrTeam.Location = New System.Drawing.Point(33, 39)
         Me.grpCurrTeam.Name = "grpCurrTeam"
         Me.grpCurrTeam.Size = New System.Drawing.Size(315, 258)
-        Me.grpCurrTeam.TabIndex = 21
+        Me.grpCurrTeam.TabIndex = 0
         Me.grpCurrTeam.TabStop = False
         Me.grpCurrTeam.Text = "Current Team"
         '
@@ -307,7 +308,7 @@ Partial Class frmMain
         Me.grpCurrStaff.Location = New System.Drawing.Point(375, 39)
         Me.grpCurrStaff.Name = "grpCurrStaff"
         Me.grpCurrStaff.Size = New System.Drawing.Size(345, 258)
-        Me.grpCurrStaff.TabIndex = 20
+        Me.grpCurrStaff.TabIndex = 0
         Me.grpCurrStaff.TabStop = False
         Me.grpCurrStaff.Text = "Current Staff"
         '

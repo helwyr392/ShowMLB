@@ -92,6 +92,12 @@
     <Compile Include="Forms\frmSplash.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Team Forms\frmPostseason.Designer.vb">
+      <DependentUpon>frmPostseason.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Team Forms\frmPostseason.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Team Forms\frmStandings.Designer.vb">
       <DependentUpon>frmStandings.vb</DependentUpon>
     </Compile>
@@ -120,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmSplash.resx">
       <DependentUpon>frmSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Team Forms\frmPostseason.resx">
+      <DependentUpon>frmPostseason.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Team Forms\frmStandings.resx">
       <DependentUpon>frmStandings.vb</DependentUpon>
