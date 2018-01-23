@@ -28,4 +28,15 @@
         End Select
     End Sub
 
+    'View Position Players button click event
+    Private Sub btnPitchers_Click(sender As Object, e As EventArgs) Handles btnPitchers.Click
+        frmPitchers.Show()
+        Me.Close()
+    End Sub
+
+    'Add Player button click event
+    Private Sub btnAddPlayer_Click(sender As Object, e As EventArgs) Handles btnAddPlayer.Click
+        frmPlayer.ShowDialog()
+    End Sub
+
 End Class

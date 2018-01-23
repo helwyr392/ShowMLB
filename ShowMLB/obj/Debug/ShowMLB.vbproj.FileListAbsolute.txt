@@ -26,3 +26,5 @@ C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmSta
 C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmPostseason.resources
 C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmRoster.resources
 C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.vbprojResolveAssemblyReference.cache
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmPitchers.resources
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmPlayer.resources

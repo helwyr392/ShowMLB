@@ -28,4 +28,8 @@
         End Select
     End Sub
 
+    'Add Player button click event
+    Private Sub btnAddPitcher_Click(sender As Object, e As EventArgs) Handles btnAddPitcher.Click
+        frmPlayer.ShowDialog()
+    End Sub
 End Class

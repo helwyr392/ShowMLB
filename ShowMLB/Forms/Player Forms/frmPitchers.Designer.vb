@@ -713,9 +713,10 @@ Partial Class frmPitchers
         Me.Controls.Add(Me.dgvLF)
         Me.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmPitchers"
-        Me.Text = "frmPitchers"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
+        Me.Text = "MLB The Show | Pitchers"
         Me.grpControls.ResumeLayout(False)
         Me.grpPlayers.ResumeLayout(False)
         CType(Me.dgvSP, System.ComponentModel.ISupportInitialize).EndInit()
