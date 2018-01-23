@@ -86,6 +86,18 @@
       <DependentUpon>frmMain.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Player Forms\frmAwardsAL.Designer.vb">
+      <DependentUpon>frmAwardsAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Player Forms\frmAwardsAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Player Forms\frmAwardsNL.Designer.vb">
+      <DependentUpon>frmAwardsNL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Player Forms\frmAwardsNL.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Visual Forms\frmDeleted.Designer.vb">
       <DependentUpon>frmDeleted.vb</DependentUpon>
     </Compile>
@@ -160,6 +172,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Forms\frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Player Forms\frmAwardsAL.resx">
+      <DependentUpon>frmAwardsAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Player Forms\frmAwardsNL.resx">
+      <DependentUpon>frmAwardsNL.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Visual Forms\frmDeleted.resx">
       <DependentUpon>frmDeleted.vb</DependentUpon>

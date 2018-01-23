@@ -114,6 +114,7 @@ Partial Class frmWorldSeries
         Me.dgvGame.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvGame.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.colTeams, Me.colInn1, Me.colInn2, Me.colInn3, Me.colInn4, Me.colInn5, Me.colInn6, Me.colInn7, Me.colInn8, Me.colInn9, Me.colRuns, Me.colHits, Me.colErrors})
         Me.dgvGame.Location = New System.Drawing.Point(41, 100)
+        Me.dgvGame.MultiSelect = False
         Me.dgvGame.Name = "dgvGame"
         Me.dgvGame.RowHeadersVisible = False
         Me.dgvGame.Size = New System.Drawing.Size(681, 81)

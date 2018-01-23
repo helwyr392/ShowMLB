@@ -78,7 +78,9 @@
 
     'Awards button click event
     Private Sub btnAwards_Click(sender As Object, e As EventArgs) Handles btnAwards.Click
-
+        frmAwardsNL.Show()
+        frmAwardsAL.Show()
+        frmAwardsAL.BringToFront()
     End Sub
 
 End Class

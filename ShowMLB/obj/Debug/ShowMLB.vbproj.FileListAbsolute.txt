@@ -31,3 +31,5 @@ C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmPla
 C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmSaved.resources
 C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmWorldSeries.resources
 C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmDeleted.resources
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmAwardsAL.resources
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmAwardsNL.resources
