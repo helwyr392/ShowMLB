@@ -22,14 +22,13 @@ Partial Class frmPitchers
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmPitchers))
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.btnSubmit = New System.Windows.Forms.Button()
         Me.grpControls = New System.Windows.Forms.GroupBox()
         Me.btnCancel = New System.Windows.Forms.Button()
@@ -39,7 +38,6 @@ Partial Class frmPitchers
         Me.DataGridViewTextBoxColumn9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.lblSP = New System.Windows.Forms.Label()
-        Me.colPlayerName = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.grpSeason = New System.Windows.Forms.GroupBox()
         Me.ComboBox5 = New System.Windows.Forms.ComboBox()
         Me.grpTeam = New System.Windows.Forms.GroupBox()
@@ -66,11 +64,6 @@ Partial Class frmPitchers
         Me.colPos = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn16 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.pbField = New System.Windows.Forms.PictureBox()
-        Me.colID = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.lblCF = New System.Windows.Forms.Label()
-        Me.lblRF = New System.Windows.Forms.Label()
-        Me.lblLF = New System.Windows.Forms.Label()
-        Me.dgvLF = New System.Windows.Forms.DataGridView()
         Me.dgvRP = New System.Windows.Forms.DataGridView()
         Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -92,7 +85,6 @@ Partial Class frmPitchers
         Me.grpStarters.SuspendLayout()
         CType(Me.dgvStarters, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbField, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.dgvLF, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dgvRP, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dgvCP, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -167,14 +159,14 @@ Partial Class frmPitchers
         Me.dgvSP.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvSP.ColumnHeadersVisible = False
         Me.dgvSP.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn9, Me.DataGridViewTextBoxColumn10})
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Green
-        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvSP.DefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Green
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvSP.DefaultCellStyle = DataGridViewCellStyle1
         Me.dgvSP.GridColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.dgvSP.Location = New System.Drawing.Point(235, 261)
         Me.dgvSP.Name = "dgvSP"
@@ -209,14 +201,6 @@ Partial Class frmPitchers
         Me.lblSP.Size = New System.Drawing.Size(64, 19)
         Me.lblSP.TabIndex = 144
         Me.lblSP.Text = "Rotation"
-        '
-        'colPlayerName
-        '
-        Me.colPlayerName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.colPlayerName.HeaderText = "PlayerName"
-        Me.colPlayerName.Name = "colPlayerName"
-        Me.colPlayerName.ReadOnly = True
-        Me.colPlayerName.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
         '
         'grpSeason
         '
@@ -319,14 +303,14 @@ Partial Class frmPitchers
         Me.dgvClosers.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
         Me.dgvClosers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvClosers.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn20, Me.DataGridViewCheckBoxColumn2, Me.DataGridViewTextBoxColumn21, Me.DataGridViewTextBoxColumn22})
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.Green
-        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvClosers.DefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Green
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvClosers.DefaultCellStyle = DataGridViewCellStyle2
         Me.dgvClosers.GridColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.dgvClosers.Location = New System.Drawing.Point(6, 26)
         Me.dgvClosers.Name = "dgvClosers"
@@ -386,14 +370,14 @@ Partial Class frmPitchers
         Me.dgvRelief.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
         Me.dgvRelief.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvRelief.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn17, Me.DataGridViewCheckBoxColumn1, Me.DataGridViewTextBoxColumn18, Me.DataGridViewTextBoxColumn19})
-        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle10.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.Green
-        DataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvRelief.DefaultCellStyle = DataGridViewCellStyle10
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Green
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvRelief.DefaultCellStyle = DataGridViewCellStyle3
         Me.dgvRelief.GridColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.dgvRelief.Location = New System.Drawing.Point(6, 26)
         Me.dgvRelief.Name = "dgvRelief"
@@ -453,14 +437,14 @@ Partial Class frmPitchers
         Me.dgvStarters.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
         Me.dgvStarters.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvStarters.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn15, Me.colChk, Me.colPos, Me.DataGridViewTextBoxColumn16})
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle11.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.Green
-        DataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvStarters.DefaultCellStyle = DataGridViewCellStyle11
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Green
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvStarters.DefaultCellStyle = DataGridViewCellStyle4
         Me.dgvStarters.GridColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.dgvStarters.Location = New System.Drawing.Point(6, 26)
         Me.dgvStarters.Name = "dgvStarters"
@@ -511,75 +495,6 @@ Partial Class frmPitchers
         Me.pbField.TabIndex = 132
         Me.pbField.TabStop = False
         '
-        'colID
-        '
-        Me.colID.HeaderText = "PlayerID"
-        Me.colID.Name = "colID"
-        Me.colID.ReadOnly = True
-        Me.colID.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.colID.Visible = False
-        '
-        'lblCF
-        '
-        Me.lblCF.AutoSize = True
-        Me.lblCF.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.lblCF.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.lblCF.Location = New System.Drawing.Point(425, 129)
-        Me.lblCF.Name = "lblCF"
-        Me.lblCF.Size = New System.Drawing.Size(107, 19)
-        Me.lblCF.TabIndex = 136
-        Me.lblCF.Text = "Center Fielders"
-        '
-        'lblRF
-        '
-        Me.lblRF.AutoSize = True
-        Me.lblRF.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.lblRF.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.lblRF.Location = New System.Drawing.Point(697, 230)
-        Me.lblRF.Name = "lblRF"
-        Me.lblRF.Size = New System.Drawing.Size(98, 19)
-        Me.lblRF.TabIndex = 135
-        Me.lblRF.Text = "Right Fielders"
-        '
-        'lblLF
-        '
-        Me.lblLF.AutoSize = True
-        Me.lblLF.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.lblLF.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.lblLF.Location = New System.Drawing.Point(132, 230)
-        Me.lblLF.Name = "lblLF"
-        Me.lblLF.Size = New System.Drawing.Size(89, 19)
-        Me.lblLF.TabIndex = 134
-        Me.lblLF.Text = "Left Fielders"
-        '
-        'dgvLF
-        '
-        Me.dgvLF.AllowDrop = True
-        Me.dgvLF.AllowUserToAddRows = False
-        Me.dgvLF.AllowUserToDeleteRows = False
-        Me.dgvLF.AllowUserToOrderColumns = True
-        Me.dgvLF.AllowUserToResizeColumns = False
-        Me.dgvLF.AllowUserToResizeRows = False
-        Me.dgvLF.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.dgvLF.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvLF.ColumnHeadersVisible = False
-        Me.dgvLF.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.colID, Me.colPlayerName})
-        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle12.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.Green
-        DataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvLF.DefaultCellStyle = DataGridViewCellStyle12
-        Me.dgvLF.GridColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.dgvLF.Location = New System.Drawing.Point(131, 252)
-        Me.dgvLF.Name = "dgvLF"
-        Me.dgvLF.RowHeadersVisible = False
-        Me.dgvLF.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.dgvLF.Size = New System.Drawing.Size(190, 85)
-        Me.dgvLF.TabIndex = 137
-        '
         'dgvRP
         '
         Me.dgvRP.AllowDrop = True
@@ -592,14 +507,14 @@ Partial Class frmPitchers
         Me.dgvRP.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvRP.ColumnHeadersVisible = False
         Me.dgvRP.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2})
-        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle13.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Green
-        DataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvRP.DefaultCellStyle = DataGridViewCellStyle13
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Green
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvRP.DefaultCellStyle = DataGridViewCellStyle5
         Me.dgvRP.GridColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.dgvRP.Location = New System.Drawing.Point(581, 261)
         Me.dgvRP.Name = "dgvRP"
@@ -647,14 +562,14 @@ Partial Class frmPitchers
         Me.dgvCP.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvCP.ColumnHeadersVisible = False
         Me.dgvCP.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4})
-        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle14.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.Green
-        DataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvCP.DefaultCellStyle = DataGridViewCellStyle14
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Green
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvCP.DefaultCellStyle = DataGridViewCellStyle6
         Me.dgvCP.GridColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.dgvCP.Location = New System.Drawing.Point(235, 488)
         Me.dgvCP.Name = "dgvCP"
@@ -707,15 +622,11 @@ Partial Class frmPitchers
         Me.Controls.Add(Me.grpTeam)
         Me.Controls.Add(Me.grpPitchers)
         Me.Controls.Add(Me.pbField)
-        Me.Controls.Add(Me.lblCF)
-        Me.Controls.Add(Me.lblRF)
-        Me.Controls.Add(Me.lblLF)
-        Me.Controls.Add(Me.dgvLF)
         Me.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmPitchers"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MLB The Show | Pitchers"
         Me.grpControls.ResumeLayout(False)
         Me.grpPlayers.ResumeLayout(False)
@@ -730,7 +641,6 @@ Partial Class frmPitchers
         Me.grpStarters.ResumeLayout(False)
         CType(Me.dgvStarters, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbField, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.dgvLF, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dgvRP, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dgvCP, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -747,7 +657,6 @@ Partial Class frmPitchers
     Friend WithEvents DataGridViewTextBoxColumn9 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn10 As DataGridViewTextBoxColumn
     Friend WithEvents lblSP As Label
-    Friend WithEvents colPlayerName As DataGridViewTextBoxColumn
     Friend WithEvents grpSeason As GroupBox
     Friend WithEvents ComboBox5 As ComboBox
     Friend WithEvents grpTeam As GroupBox
@@ -774,11 +683,6 @@ Partial Class frmPitchers
     Friend WithEvents colPos As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn16 As DataGridViewTextBoxColumn
     Friend WithEvents pbField As PictureBox
-    Friend WithEvents colID As DataGridViewTextBoxColumn
-    Friend WithEvents lblCF As Label
-    Friend WithEvents lblRF As Label
-    Friend WithEvents lblLF As Label
-    Friend WithEvents dgvLF As DataGridView
     Friend WithEvents dgvRP As DataGridView
     Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn

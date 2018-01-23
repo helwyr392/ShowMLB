@@ -1,7 +1,13 @@
 ﻿Public Class frmRoster
     'Form load
     Private Sub frmWorldSeries_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        InitForm()
+    End Sub
 
+    'Initialize form
+    Private Sub InitForm()
+        'Bring form to front
+        Me.BringToFront()
     End Sub
 
     'Submit button mouse enter event
@@ -28,10 +34,9 @@
         End Select
     End Sub
 
-    'View Position Players button click event
+    'View Pitchers button click event
     Private Sub btnPitchers_Click(sender As Object, e As EventArgs) Handles btnPitchers.Click
-        frmPitchers.Show()
-        Me.Close()
+        frmPitchers.BringToFront()
     End Sub
 
     'Add Player button click event

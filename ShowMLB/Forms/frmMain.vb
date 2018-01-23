@@ -64,9 +64,21 @@
         frmPostseason.ShowDialog()
     End Sub
 
+    'World Series button click event
+    Private Sub btnWorldSeries_Click(sender As Object, e As EventArgs) Handles btnWorldSeries.Click
+        frmWorldSeries.ShowDialog()
+    End Sub
+
     'Roster button click event
     Private Sub btnRoster_Click(sender As Object, e As EventArgs) Handles btnRoster.Click
-        frmRoster.ShowDialog()
+        frmPitchers.Show()
+        frmRoster.Show()
+        frmRoster.BringToFront()
+    End Sub
+
+    'Awards button click event
+    Private Sub btnAwards_Click(sender As Object, e As EventArgs) Handles btnAwards.Click
+
     End Sub
 
 End Class

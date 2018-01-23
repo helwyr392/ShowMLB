@@ -86,10 +86,22 @@
       <DependentUpon>frmMain.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmSplash.Designer.vb">
+    <Compile Include="Forms\Visual Forms\frmDeleted.Designer.vb">
+      <DependentUpon>frmDeleted.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Visual Forms\frmDeleted.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Visual Forms\frmSaved.Designer.vb">
+      <DependentUpon>frmSaved.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Visual Forms\frmSaved.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Visual Forms\frmSplash.Designer.vb">
       <DependentUpon>frmSplash.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmSplash.vb">
+    <Compile Include="Forms\Visual Forms\frmSplash.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Player Forms\frmPitchers.Designer.vb">
@@ -122,6 +134,13 @@
     <Compile Include="Forms\Player Forms\frmRoster.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Team Forms\frmWorldSeries.Designer.vb">
+      <DependentUpon>frmWorldSeries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Team Forms\frmWorldSeries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\mdlGlobals.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -142,7 +161,13 @@
     <EmbeddedResource Include="Forms\frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmSplash.resx">
+    <EmbeddedResource Include="Forms\Visual Forms\frmDeleted.resx">
+      <DependentUpon>frmDeleted.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Visual Forms\frmSaved.resx">
+      <DependentUpon>frmSaved.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Visual Forms\frmSplash.resx">
       <DependentUpon>frmSplash.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Player Forms\frmPitchers.resx">
@@ -159,6 +184,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Player Forms\frmRoster.resx">
       <DependentUpon>frmRoster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Team Forms\frmWorldSeries.resx">
+      <DependentUpon>frmWorldSeries.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -182,7 +210,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
-    <Folder Include="Modules\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo_mlb.ico" />

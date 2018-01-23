@@ -28,3 +28,6 @@ C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmRos
 C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.vbprojResolveAssemblyReference.cache
 C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmPitchers.resources
 C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmPlayer.resources
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmSaved.resources
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmWorldSeries.resources
+C:\Users\helwy\Desktop\Projects\WinForm\ShowMLB\ShowMLB\obj\Debug\ShowMLB.frmDeleted.resources

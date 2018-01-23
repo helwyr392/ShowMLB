@@ -1,7 +1,13 @@
 ﻿Public Class frmPitchers
     'Form load
     Private Sub frmPitchers_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        InitForm()
+    End Sub
 
+    'Initialize form
+    Private Sub InitForm()
+        'Bring form to front
+        Me.BringToFront()
     End Sub
 
     'Submit button mouse enter event
@@ -28,8 +34,14 @@
         End Select
     End Sub
 
+    'View Position Players button click event
+    Private Sub btnPlayers_Click(sender As Object, e As EventArgs) Handles btnPlayers.Click
+        frmRoster.BringToFront()
+    End Sub
+
     'Add Player button click event
     Private Sub btnAddPitcher_Click(sender As Object, e As EventArgs) Handles btnAddPitcher.Click
         frmPlayer.ShowDialog()
     End Sub
+
 End Class
