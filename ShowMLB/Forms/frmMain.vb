@@ -5,6 +5,9 @@
         'frmSplash.ShowDialog()
         InitForm()
         Me.BringToFront()
+
+        'Set database connection
+        mdlGlobals.SetConnection()
     End Sub
 
     'Initialize form

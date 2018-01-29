@@ -297,7 +297,7 @@ Partial Class frmStandings
         Me.Label31 = New System.Windows.Forms.Label()
         Me.btnSubmit = New System.Windows.Forms.Button()
         Me.grpSeason = New System.Windows.Forms.GroupBox()
-        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
+        Me.cmbSeason = New System.Windows.Forms.ComboBox()
         Me.btnCancel = New System.Windows.Forms.Button()
         Me.grpALEast.SuspendLayout()
         Me.grpALCentral.SuspendLayout()
@@ -2934,7 +2934,7 @@ Partial Class frmStandings
         '
         'grpSeason
         '
-        Me.grpSeason.Controls.Add(Me.ComboBox5)
+        Me.grpSeason.Controls.Add(Me.cmbSeason)
         Me.grpSeason.Location = New System.Drawing.Point(24, 12)
         Me.grpSeason.Name = "grpSeason"
         Me.grpSeason.Size = New System.Drawing.Size(201, 68)
@@ -2942,15 +2942,15 @@ Partial Class frmStandings
         Me.grpSeason.TabStop = False
         Me.grpSeason.Text = "Season"
         '
-        'ComboBox5
+        'cmbSeason
         '
-        Me.ComboBox5.BackColor = System.Drawing.SystemColors.Window
-        Me.ComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Location = New System.Drawing.Point(22, 26)
-        Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(157, 27)
-        Me.ComboBox5.TabIndex = 0
+        Me.cmbSeason.BackColor = System.Drawing.SystemColors.Window
+        Me.cmbSeason.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbSeason.FormattingEnabled = True
+        Me.cmbSeason.Location = New System.Drawing.Point(22, 26)
+        Me.cmbSeason.Name = "cmbSeason"
+        Me.cmbSeason.Size = New System.Drawing.Size(157, 27)
+        Me.cmbSeason.TabIndex = 0
         '
         'btnCancel
         '
@@ -3278,6 +3278,6 @@ Partial Class frmStandings
     Friend WithEvents Label31 As Label
     Friend WithEvents btnSubmit As Button
     Friend WithEvents grpSeason As GroupBox
-    Friend WithEvents ComboBox5 As ComboBox
+    Friend WithEvents cmbSeason As ComboBox
     Friend WithEvents btnCancel As Button
 End Class
